@@ -1,0 +1,27 @@
+/*
+练习
+
+请利用循环遍历数组中的每个名字，并显示Hello, xxx!：
+*/
+/*for 正序*/
+for (var i in arr) {
+    alert(`Hello,${arr[i]}`);
+}
+/*for 倒序*/
+for (var i in arr) {
+    alert(`Hello,${arr[arr.length-i]}`);
+}
+/*while 正序*/
+var arr = ['Bart', 'Lisa', 'Adam'];
+var i = 0;
+while (i < arr.length) {
+    alert(`Hello,${arr[i]}`);
+    i++;
+}
+/*while 倒序*/
+var arr = ['Bart', 'Lisa', 'Adam'];
+var i = arr.length-1;
+while (i > -1) {
+    alert(`Hello,${arr[i]}`);
+    i--;
+}
