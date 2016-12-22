@@ -1,0 +1,20 @@
+----------------------------------------
+/*
+  练习
+  
+请利用构造函数定义Cat，并让所有的Cat对象有一个name属性，并共享一个方法say()，返回字符串'Hello, xxx!'：
+
+!!! for the object coding, please note to blind the function into the prototype.
+*/
+my code:
+
+function Cat(name) {
+    this.name = name || '匿名'; // 默认值为'匿名'
+}
+
+Cat.prototype.say = function () {
+    return('Hello, ' + this.name + '!');
+};
+----------------------------------------
+
+
