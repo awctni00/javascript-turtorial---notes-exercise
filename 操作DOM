@@ -1,0 +1,15 @@
+----------------------------------------
+/*
+请选择出指定条件的节点：
+*/
+
+my code:
+// 选择<p>JavaScript</p>:
+var js = document.getElementById('test-p');
+
+// 选择<p>Python</p>,<p>Ruby</p>,<p>Swift</p>:
+var arr = document.getElementsByClassName('c-red')[1].getElementsByTagName('p');
+
+// 选择<p>Haskell</p>:
+var haskell = document.getElementsByClassName('c-green')[1].lastElementChild;
+----------------------------------------
